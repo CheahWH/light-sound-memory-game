@@ -111,20 +111,28 @@ function guess(btn){
   }
   
   //if guessed correctly
-  if(pattern[guessCounter] == btn){
-    if(guessCounter == progress){
-      if(progress == pattern.length-1){
+  if(pattern[guessCounter] == btn)
+  {
+    if(guessCounter == progress)
+    {
+      if(progress == pattern.length-1)
+      {
         winGame(); //game is won
       }
-      else{
+      else
+      {
         progress++;//resume the game
         playClueSequence();
       }
-    }else{
+    }
+    else
+    {
       //check the guess
       guessCounter++;
     }
-  }else{
+  }
+  else
+  {
     loseGame(); //game ends
   }
 }
