@@ -64,7 +64,7 @@ What are the best ways to improve my skills to become a web developer other than
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://www.loom.com/share/817fc023681840a48f9172674290ad21)
 
 
 ## License
